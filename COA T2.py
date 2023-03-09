@@ -6,8 +6,8 @@ while(True):
         if(str(0) in fp and str(1) and fp and " " in fp):
             s=fp.split(' ')
             sign=int(s[0])
-            spexponent=int(s[1],2)-127
-            dpexponent=int(s[1],2)-1023
+            spexponent=int(s[1],2)-127  #for single precision
+            dpexponent=int(s[1],2)-1023  #for double precision
             sum=0
             for i in range(len(s[2])):
                     if(int(s[2][i])==1):
