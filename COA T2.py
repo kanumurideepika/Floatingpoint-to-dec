@@ -1,3 +1,4 @@
+#the input should be given with spaces between sign bit,exponent bits and mantissa bits
 print("\t\tFLOATING POINT TO DECIMAL CONVERTER\n")
 while(True):
         print("Enter floating point with only 0,1 and spaces :")
